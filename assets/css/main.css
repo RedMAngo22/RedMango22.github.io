@@ -21,29 +21,24 @@ a {
 }
 
 /* All the Navbar code */
-header ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	font-weight: 400;
-	overflow: hidden;
-	background-color: #eaefef;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d8c8c;
 }
 
-header li {
-	float: left;
-	margin-left: 8px;
+li {
+    float: left;
 }
 
-header li a {
-	display: block;
-	text-align: center;
-	padding: 12px 14px;
-	transition: background-color .2s ease-in-out;
-	border-radius: 50px;
-}
-
-header li a:hover {
-	background-color: #3d8c8c;
+li a {
+    display: block;
+    color: #eaefef;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
 }
 /* End of the navbar code */
