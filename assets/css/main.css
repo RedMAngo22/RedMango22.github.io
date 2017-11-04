@@ -26,6 +26,7 @@ header ul {
 	margin: 0;
 	padding: 0;
 	font-weight: 400;
+	overflow: hidden;
 	background-color: #eaefef;
 }
 
@@ -38,9 +39,11 @@ header li a {
 	display: block;
 	text-align: center;
 	padding: 12px 14px;
-	border-radius: 20px;
+	transition: background-color .2s ease-in-out;
+	border-radius: 50px;
 }
 
 header li a:hover {
-	background-color: 3d8c8c;
+	background-color: #3d8c8c;
+}
 /* End of the navbar code */
