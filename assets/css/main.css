@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');  /* This will import the font */
+
+/* The main website style */
+html,  
+body {
+	background-color: #eaefef;
+	color: #3d8c8c;
+	width: 100%;
+	height: auto;
+	font-weight: 400;
+	font-size: 17px;
+	font-family: 'Montserrat', sans-serif;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+	text-transform: none;
+}
+
+/* The colour of you links */
+a {
+	color: #3d8c8c;
+}
+
+/* All the Navbar code */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3d8c8c;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #eaefef;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+/* End of the navbar code */
